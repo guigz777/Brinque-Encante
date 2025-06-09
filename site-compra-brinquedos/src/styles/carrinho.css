@@ -1,0 +1,104 @@
+main {
+    max-width: 700px;
+    margin: 40px auto 0 auto;
+    padding: 32px 24px;
+    background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(106, 130, 251, 0.08);
+    min-height: 350px;
+}
+
+main h1 {
+    color: #6a82fb;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#carrinho {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(106, 130, 251, 0.10);
+    padding: 28px 20px;
+    margin-bottom: 32px;
+    min-height: 100px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#carrinho p {
+    margin: 0;
+    color: #fc5c7d;
+    font-size: 1.1rem;
+}
+
+#carrinho ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#carrinho li {
+    background: linear-gradient(90deg, #fbc2eb 0%, #a6c1ee 100%);
+    color: #6a82fb;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    padding: 16px 18px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 6px rgba(106, 130, 251, 0.06);
+    gap: 16px;
+}
+
+#carrinho li strong {
+    color: #fc5c7d;
+    margin-left: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#finalizar-compra {
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #fc5c7d 0%, #6a82fb 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 32px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(252, 92, 125, 0.10);
+}
+
+#finalizar-compra:hover {
+    background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+    box-shadow: 0 4px 16px rgba(106, 130, 251, 0.15);
+}
+
+#limpar-carrinho {
+    display: block;
+    margin: 16px auto 0 auto;
+    background: linear-gradient(90deg, #fc5c7d 0%, #6a82fb 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 32px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(252, 92, 125, 0.10);
+}
+
+#limpar-carrinho:hover {
+    background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+    box-shadow: 0 4px 16px rgba(106, 130, 251, 0.15);
+}

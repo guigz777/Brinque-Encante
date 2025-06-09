@@ -1,0 +1,61 @@
+/* Estilo para seções extras da Home */
+
+.sobre-loja, .vantagens, .contato {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(106, 130, 251, 0.08);
+    padding: 32px 24px;
+    margin: 36px auto 0 auto;
+    max-width: 900px;
+}
+
+.sobre-loja h2,
+.vantagens h2,
+.contato h2 {
+    color: #6a82fb;
+    font-size: 1.7rem;
+    margin-bottom: 18px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.sobre-loja p,
+.contato p {
+    color: #444;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.vantagens ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.vantagens ul li {
+    background: linear-gradient(90deg, #fbc2eb 0%, #a6c1ee 100%);
+    color: #6a82fb;
+    font-size: 1.1rem;
+    margin-bottom: 14px;
+    padding: 12px 18px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 1px 6px rgba(106, 130, 251, 0.06);
+}
+
+.contato a {
+    color: #fc5c7d;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.contato a:hover {
+    color: #6a82fb;
+    text-decoration: underline;
+}

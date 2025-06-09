@@ -1,0 +1,228 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #2d2d2d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+    padding: 24px 0;
+    box-shadow: 0 2px 12px rgba(100, 100, 200, 0.08);
+}
+
+.main-header {
+    background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+    box-shadow: 0 2px 12px rgba(100, 100, 200, 0.08);
+    padding: 0;
+}
+
+#header-placeholder {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(106, 130, 251, 0.10);
+}
+
+.logo-text {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(106, 130, 251, 0.10);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+.nav-list li a {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav-list li a:hover,
+.nav-list li a:focus {
+    background: rgba(255,255,255,0.18);
+    color: #2d2d2d;
+}
+
+main {
+    flex: 1;
+    max-width: 1200px;
+    margin: 32px auto;
+    padding: 0 20px;
+}
+
+.hero {
+    background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+    border-radius: 16px;
+    padding: 48px 24px;
+    text-align: center;
+    margin-bottom: 48px;
+    box-shadow: 0 2px 16px rgba(106, 130, 251, 0.08);
+}
+
+.hero h1 {
+    color: #6a82fb;
+    font-size: 2.7rem;
+    margin-bottom: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: #5a5a5a;
+}
+
+.featured-products h2 {
+    color: #fc5c7d;
+    margin-bottom: 28px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.product-list {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(106, 130, 251, 0.10);
+    padding: 24px 18px 20px 18px;
+    width: 260px;
+    min-height: 390px;
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 2px solid transparent;
+    margin-bottom: 24px;
+}
+
+.product-item:hover {
+    transform: translateY(-7px) scale(1.04);
+    box-shadow: 0 8px 28px rgba(252, 92, 125, 0.15);
+    border: 2px solid #fc5c7d;
+}
+
+.product-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    background: #f3e9ff;
+    box-shadow: 0 2px 8px rgba(106, 130, 251, 0.07);
+}
+
+.product-item h3 {
+    font-size: 1.15rem;
+    color: #6a82fb;
+    margin-bottom: 8px;
+    font-weight: 600;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 12px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-item strong {
+    color: #fc5c7d;
+    font-size: 1.1rem;
+}
+
+.product-item button {
+    background: linear-gradient(90deg, #fc5c7d 0%, #6a82fb 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 22px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(252, 92, 125, 0.10);
+    margin-top: 10px;
+}
+
+.product-item button:hover {
+    background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+    box-shadow: 0 4px 16px rgba(106, 130, 251, 0.15);
+}
+
+.product-info {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+    margin-top: 48px;
+    box-shadow: 0 -2px 12px rgba(100, 100, 200, 0.08);
+    letter-spacing: 1px;
+}

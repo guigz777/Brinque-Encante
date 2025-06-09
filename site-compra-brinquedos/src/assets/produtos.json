@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "nome": "Carrinho de Controle Remoto",
+    "descricao": "Carrinho rápido com controle remoto incluso.",
+    "preco": 99.90,
+    "imagem": "../../images/carrinho.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "Boneca Fashion",
+    "descricao": "Boneca articulada com acessórios.",
+    "preco": 79.90,
+    "imagem": "../../images/Boneca Fashion.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "Quebra-Cabeça 500 peças",
+    "descricao": "Desafie sua mente com este quebra-cabeça divertido.",
+    "preco": 49.90,
+    "imagem": "../../images/Quebra-Cabeça 500 peças.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "Jogo de Tabuleiro Aventura",
+    "descricao": "Diversão garantida para toda a família.",
+    "preco": 89.90,
+    "imagem": "../../images/Jogo de Tabuleiro Aventura.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "Blocos de Montar 100 peças",
+    "descricao": "Estimule a criatividade das crianças.",
+    "preco": 59.90,
+    "imagem": "../../images/Blocos de Montar 100 peças.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Pelúcia Unicórnio",
+    "descricao": "Maciez e fofura em um só brinquedo.",
+    "preco": 39.90,
+    "imagem": "../../images/Pelúcia Unicórnio.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Kit de Massinha de Modelar",
+    "descricao": "Cores variadas para criar e brincar.",
+    "preco": 29.90,
+    "imagem": "../../images/Kit de Massinha de Modelar.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Pista de Carrinhos",
+    "descricao": "Monte diferentes pistas e corra com seus carrinhos.",
+    "preco": 109.90,
+    "imagem": "../../images/Pista de Carrinhos.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Jogo da Memória Animais",
+    "descricao": "Ajuda no desenvolvimento da memória das crianças.",
+    "preco": 24.90,
+    "imagem": "../../images/Jogo da Memória Animais.jpg"
+  },
+  {
+    "id": 10,
+    "nome": "Boneco Super-Herói",
+    "descricao": "Boneco articulado de super-herói famoso.",
+    "preco": 54.90,
+    "imagem": "../../images/Boneco Super-Herói.jpg"
+  },
+  {
+    "id": 11,
+    "nome": "Kit Médico Infantil",
+    "descricao": "Brinque de médico com este kit completo.",
+    "preco": 44.90,
+    "imagem": "../../images/Kit Médico Infantil.jpg"
+  },
+  {
+    "id": 12,
+    "nome": "Caminhão de Bombeiro",
+    "descricao": "Caminhão com escada móvel e luzes.",
+    "preco": 69.90,
+    "imagem": "../../images/Caminhão de Bombeiro.jpg"
+  },
+  {
+    "id": 13,
+    "nome": "Casinha de Boneca",
+    "descricao": "Casinha colorida para brincar de faz de conta.",
+    "preco": 129.90,
+    "imagem": "../../images/Casinha de Boneca.jpg"
+  },
+  {
+    "id": 14,
+    "nome": "Jogo de Dardos Magnéticos",
+    "descricao": "Seguro e divertido para todas as idades.",
+    "preco": 34.90,
+    "imagem": "../../images/Jogo de Dardos Magnéticos.jpg"
+  },
+  {
+    "id": 15,
+    "nome": "Robô Interativo",
+    "descricao": "Robô que fala, dança e responde comandos.",
+    "preco": 149.90,
+    "imagem": "../../images/Robô Interativo.jpg"
+  },
+  {
+    "id": 16,
+    "nome": "Kit de Pintura Infantil",
+    "descricao": "Inclui tintas, pincéis e desenhos para colorir.",
+    "preco": 27.90,
+    "imagem": "../../images/Kit de Pintura Infantil.jpg"
+  },
+  {
+    "id": 17,
+    "nome": "Jogo de Argolas",
+    "descricao": "Clássico jogo para brincar ao ar livre.",
+    "preco": 19.90,
+    "imagem": "../../images/Jogo de Argolas.jpg"
+  },
+  {
+    "id": 18,
+    "nome": "Trenzinho de Madeira",
+    "descricao": "Trenzinho com trilhos para montar.",
+    "preco": 64.90,
+    "imagem": "../../images/Trenzinho de Madeira.jpg"
+  },
+  {
+    "id": 19,
+    "nome": "Bola de Futebol Infantil",
+    "descricao": "Bola leve e colorida para crianças.",
+    "preco": 22.90,
+    "imagem": "../../images/Bola de Futebol Infantil.jpg"
+  },
+  {
+    "id": 20,
+    "nome": "Jogo Educativo Alfabeto",
+    "descricao": "Aprenda o alfabeto brincando.",
+    "preco": 32.90,
+    "imagem": "../../images/Jogo Educativo Alfabeto.jpg"
+  },
+  {
+    "id": 21,
+    "nome": "Patinete Infantil",
+    "descricao": "Patinete dobrável e seguro.",
+    "preco": 159.90,
+    "imagem": "../../images/Patinete Infantil.jpg"
+  },
+  {
+    "id": 22,
+    "nome": "Kit de Bolhas de Sabão",
+    "descricao": "Diversão garantida com bolhas gigantes.",
+    "preco": 14.90,
+    "imagem": "../../images/Kit de Bolhas de Sabão.jpg"
+  },
+  {
+    "id": 23,
+    "nome": "Jogo de Dominó",
+    "descricao": "Peças grandes e coloridas para crianças.",
+    "preco": 18.90,
+    "imagem": "../../images/Jogo de Dominó.jpg"
+  },
+  {
+    "id": 24,
+    "nome": "Boneca Bebê",
+    "descricao": "Boneca bebê com roupinha e mamadeira.",
+    "preco": 58.90,
+    "imagem": "../../images/Boneca Bebê.jpg"
+  },
+  {
+    "id": 25,
+    "nome": "Cubo Mágico",
+    "descricao": "Desafie-se com este clássico quebra-cabeça.",
+    "preco": 16.90,
+    "imagem": "../../images/Cubo Mágico.jpg"
+  },
+  {
+    "id": 26,
+    "nome": "Kit de Ferramentas Infantil",
+    "descricao": "Ferramentas de brinquedo para pequenos construtores.",
+    "preco": 36.90,
+    "imagem": "../../images/Kit de Ferramentas Infantil.jpg"
+  },
+  {
+    "id": 27,
+    "nome": "Jogo de Pesca Magnético",
+    "descricao": "Pesque peixinhos coloridos com vara magnética.",
+    "preco": 21.90,
+    "imagem": "../../images/Jogo de Pesca Magnético.jpg"
+  },
+  {
+    "id": 28,
+    "nome": "Mini Violão Infantil",
+    "descricao": "Instrumento musical para estimular a criatividade.",
+    "preco": 45.90,
+    "imagem": "../../images/Mini Violão Infantil.jpg"
+  },
+  {
+    "id": 29,
+    "nome": "Jogo de Argolas para Banho",
+    "descricao": "Brinquedo divertido para hora do banho.",
+    "preco": 17.90,
+    "imagem": "../../images/Jogo de Argolas para Banho.jpg"
+  },
+  {
+    "id": 30,
+    "nome": "Caminhão Basculante",
+    "descricao": "Caminhão de brinquedo com caçamba basculante.",
+    "preco": 42.90,
+    "imagem": "../../images/Caminhão Basculante.jpg"
+  }
+]
