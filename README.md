@@ -9,19 +9,21 @@ O projeto possui a seguinte estrutura de diretórios e arquivos:
 ```
 site-compra-brinquedos
 ├── src
-│   ├── assets          # Arquivos estáticos (imagens, fontes, etc.)
-│   ├── components      # Componentes reutilizáveis do site
-│   │   └── Header.html # Cabeçalho do site
-│   ├── pages           # Páginas do site
-│   │   ├── Home.html   # Página inicial
-│   │   ├── Produtos.html # Lista de produtos
-│   │   └── Carrinho.html # Página do carrinho de compras
-│   ├── styles          # Estilos CSS do site
-│   │   └── main.css    # Estilos principais
-│   └── scripts         # Scripts JavaScript do site
-│       └── main.js     # Funcionalidades interativas
-├── index.html          # Ponto de entrada do site
-└── README.md           # Documentação do projeto
+│   ├── assets              # Arquivos estáticos (imagens, fontes, etc.)
+│   ├── components          # Componentes reutilizáveis do site
+│   │   └── Header.html     # Cabeçalho do site
+│   ├── pages               # Páginas do site
+│   │   ├── Home.html       # Página inicial
+│   │   ├── Produtos.html   # Lista de produtos
+│   │   └── Carrinho.html   # Página do carrinho de compras
+│   ├── styles              # Estilos CSS do site
+│   │   ├── main.css        # Estilos principais
+│   │   ├── carrinho.css    # Estilos principais
+│   │   ├── home.css        # Estilos principais
+│   │   └── produtos.css    # Estilos principais
+│   └── scripts             # Scripts JavaScript do site
+│       └── main.js         # Funcionalidades interativas
+├── index.html              # Ponto de entrada do site
 ```
 
 ## Instalação
