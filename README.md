@@ -22,8 +22,8 @@ site-compra-brinquedos
 │   │   ├── home.css        # Estilos principais
 │   │   └── produtos.css    # Estilos principais
 │   └── scripts             # Scripts JavaScript do site
-│       └── main.js         # Funcionalidades interativas
-├── index.html              # Ponto de entrada do site
+│       └── main.js         # Funcionalidades
+
 ```
 
 ## Instalação
